@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<meta name="keywords" content="Savoy Hotel, hotels, motels, accommodation, rooms, facilities" />
+		<meta name="description" content="Savoy Hotels are located in the heart of cities worldwide with a calming, upscale ambiance and access to theaters, brilliant shopping, midtown business and fine dining." />
+
+		<title>Home | Savoy Hotel</title>
+		
+		<!--These 2 links are is the scripts necessary to power the slideshow on the home page -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript"></script>
+		<script src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js" type="text/javascript"></script>
+
+		<!-- The relevant code in this file script initiates the slideshow -->
+		<script type="text/javascript" src="js/javascript.js"></script>
+
+		<!-- The first style sheet is in operation when the pages are being viewed in a browser, the second style sheet is called upon when the page is going to be printed -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+
+	</head>
+
+	<body>
+		<!-- This is the main container that is constantly in the middle of the screen hovering over the patterned background, displaying all the information. -->
+		<div id="container">
+
+			<!-- The first h1 tag is for the logo placement when the page is being displayed on a browser and the second h1 tag is only visible when the print style sheet is activated, in whic instance the first h1 will then be hidden -->
+
+			<h1><a id="logo" href="index.html">Savoy Hotels</a></h1>
+			<h1 id="printLogo">Savoy Hotels</h1>
+
+			<!-- This code is for the navigation bar and links that is positioned to the right of the logo -->
+			<ul id="topnav">
+				<li><a href="index.html" class="active"><strong>Home</strong></a></li>
+				<li class="navSeperator"><img src="images/nav_seperator.gif" alt="|" /></li>
+				<li><a href="rooms.html"><strong>Rooms</strong></a></li>
+				<li class="navSeperator"><img src="images/nav_seperator.gif" alt="|" /></li>
+				<li><a href="facilities.html"><strong>Facilities</strong></a></li>
+				<li class="navSeperator"><img src="images/nav_seperator.gif" alt="|" /></li>
+				<li><a href="dining.html"><strong>Dining</strong></a></li>
+				<li class="navSeperator"><img src="images/nav_seperator.gif" alt="|" /></li>
+				<li><a href="contact.html"><strong>Contact Us</strong></a></li>
+			</ul>	
+
+			<!-- This code is for the first box that conatins the main heading of the page as well as a complimentray blurb -->
+			<div id="introbox">				
+
+				<h2 id="welcome">Welcome</h2>
+
+				<p><em>Experience our distinctive service, fitness center, business center and concierge staff ready to help you with the hottest tickets, directions and other arrangements.</em></p>
+				<p><em>Revel in the skyline from one of our spacious guest rooms and suites, luxuriously appointed with custom bedding and advanced technology.</em></p>
+
+			</div>
+
+			<div class="slideshow">
+
+				<div id="slideshowItem1" class="slideshowitem" style="z-index:5;">
+
+					<p id="SlideshowText1"><em>Our elegant Superior rooms feature stylish platform beds with pillow top mattresses, leather club chairs and remote control flat-screen TVs.</em></p>
+					<img src="images/slideshow_pic1.jpg" alt="Slideshow Picture 1" id="slideshowpic1" class="slideshowpics"  />
+
+				</div>
+
+				<div id="slideshowItem2" class="slideshowitem" style="z-index:4;">
+
+					<p id="SlideshowText2"><em>Savoy Hotels are located in the heart of cities worldwide with a calming, upscale ambiance and access to theaters, brilliant shopping, midtown business and fine dining.</em></p>
+					<img src="images/slideshow_pic2.jpg" alt="Slideshow Picture 2" id="slideshowpic2" class="slideshowpics"  />
+
+				</div>
+
+				<div id="slideshowItem3" class="slideshowitem" style="z-index:3;">
+
+					<p id="SlideshowText3"><em>The most advanced conference sites in world offers 110,000 square feet of space on 6 floors served by a separate elevator bank.</em></p>
+					<img src="images/slideshow_pic3.jpg" alt="Slideshow Picture 3" id="slideshowpic3" class="slideshowpics"  />
+
+				</div>
+
+			</div>
+
+			<div id="trio">
+
+				<div class="picturelink">
+
+					<img src="images/home_pic1.jpg" alt="Room Picture" class="triopics" />
+					<p><em>Our beautifully renovated Standard rooms are a tranquil retreat from the hustle and bustle of the busy cities. The new elegant decor . . . </em></p>
+					<a href="rooms.html">Read More</a>
+
+				</div>
+
+				<div class="picturelink">
+
+					<img src="images/home_pic2.jpg" alt="Facilities Picture" class="triopics" />
+					<p><em>Savoy Hotels offer newly renovated meeting spaces and are the only hotels in the world with on-site meeting facilities approved by the . . .</em></p>
+					<a href="facilities.html">Read More</a>
+
+				</div>
+
+				<div class="picturelink">
+
+					<img src="images/home_pic3.jpg" alt="Restaurant Picture" class="triopics" />
+					<p><em>The hotel's elegant Restaurant Charlotte serves contemporary European cuisine all day long and is ideal for pre or post show dining . . . .</em></p>
+					<a href="dining.html">Read More</a>
+
+				</div>
+
+			</div>						
+
+			<hr />
+
+			<div id="footer">
+			
+				<ul id="footnav">
+					<li class="equalnav"><a href="index.html" class="active"><strong>Home</strong></a></li>
+					<li class="navSeperator2"><img src="images/nav_seperator.gif" alt="|" /></li>
+					<li class="equalnav"><a href="rooms.html"><strong>Rooms</strong></a></li>
+					<li class="navSeperator2"><img src="images/nav_seperator.gif" alt="|" /></li>
+					<li class="equalnav"><a href="facilities.html"><strong>Facilities</strong></a></li>
+					<li class="navSeperator2"><img src="images/nav_seperator.gif" alt="|" /></li>
+					<li class="equalnav"><a href="dining.html"><strong>Dining</strong></a></li>
+					<li class="navSeperator2"><img src="images/nav_seperator.gif" alt="|" /></li>
+					<li class="equalnav"><a href="contact.html"><strong>Contact Us</strong></a></li>
+					<li class="navSeperator2"><img src="images/nav_seperator.gif" alt="|" /></li>
+					<li class="equalnav"><a href="sitemap.html"><strong>Site Map</strong></a></li>
+				</ul>
+
+				<p>Enquiries: T: (NZ only) 0800 782 548 (Australia only) 1 800 147 803 <br /> &copy; Savoy International Hotel Corporation 2012</p>
+		
+			</div>
+
+		</div>
+	
+	</body>
+	
+</html>

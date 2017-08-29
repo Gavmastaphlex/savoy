@@ -1,0 +1,482 @@
+head, body, ul, li, h1, p, div {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+body {
+	background-image:url('../images/background.png');
+	background-color: #48636F;
+	font-family: Myriad Pro, Arial, sans-serif;
+}
+
+#container {
+	width: 870px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 45px;
+	background-image:url('../images/container_gradient.png');
+	background-repeat: repeat-x;
+	background-color: #CCCCCC;
+	box-shadow: 6px 6px 20px #000;
+}
+
+#topnav li {
+    display: inline-block;
+}
+
+#topnav li a {
+    padding: 27px;
+    padding-top: 35px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+	width: 259px;
+	height: 160px;
+	background-image: url('../images/logo.png');
+	float: left;
+	display: block;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#logo {
+	height: 160px;
+	width: 259px;
+	display: block;
+}
+
+#printLogo {
+	display: none;
+}
+
+#topnav {
+	display: inline-block;
+	padding: 0 10px 10px 10px;
+	position: relative; top: 30px;
+}
+
+.navSeperator {
+	position: relative; top: 8px;
+}
+
+#introbox {
+	clear: left;
+	width: 850px;
+	height: 135px;
+	padding: 10px;
+	background-image: url('../images/welcome_gradient.png');
+	background-color: #CAE0BC;
+	background-repeat: repeat-x;
+	box-shadow: 1px 1px 5px #000;
+}
+
+#standardrooms h3, #superiorrooms h3, #penthousesuites h3, #dininginfobox h3, #facilitiesinfobox h3, #contactformcontainer h3, #contactform h3, #contactdetails h3,  #sitemapinfobox h3 {
+ 	font-size: 30px;
+ 	text-align: center;
+ 	font-weight: normal;
+ 	margin: 20px 0 10px;
+ }
+
+#standardrooms ul, #superiorrooms ul, #penthousesuites ul, #dininginfobox ul, #facilitiesinfobox ul, #contactformcontainer ul, #contactform ul, #contactdetails ul {
+ 	margin: 15px 0 0 0;
+ }
+
+#standardrooms li, #superiorrooms li, #penthousesuites li, #dininginfobox li, #facilitiesinfobox li, #contactformcontainer li, #contactform li, #contactdetails li {
+ 	font-size: 12px;
+ 	list-style: none;
+ 	text-decoration: none;
+ 	padding: 10px 0;
+}
+
+#welcome {
+	width: 244px;
+	height: 119px;
+	margin: 20px 5px 5px 20px;
+	float: left;
+	background-image: url('../images/welcome_title.png');
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#introbox p {
+	width: 560px;
+	float: right;
+	padding: 3px 0 10px;
+	font-size: 18px;
+}
+
+.slideshow {
+	background-color: rgba(0, 0, 0, 0.15);
+	height: 341px;
+	width: 850px;
+	margin: 40px auto 30px;
+	box-shadow: 1px 1px 5px #000;
+	position: relative;
+}
+
+.slideshowitem p {
+background-color: #FFF;
+}
+
+.slideshowitem p {
+	width: 243px;
+	height: 311px;
+	padding: 30px 20px 0;
+	position: absolute; right: 0;
+	text-align: center;
+	font-size: 23px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#slideshowItem2, #slideshowItem3 {
+	display: none;
+}
+
+#trio {
+	height: 330px;
+	margin: 0 0 30px 0;
+}
+
+.picturelink {
+	background-color: #AAA;
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 200px;
+    height: 290px;
+    float: left;
+    padding: 10px 20px;
+    margin: 12px 25px;
+    font-size: 12px;
+	box-shadow: 1px 1px 5px #000;
+}
+
+.picturelink p {
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px 0px;
+	font-size: 15px;
+}
+
+.picturelink a {
+	height: 39px;
+	width: 127px;
+	text-align: center;
+	margin: 0 auto;
+	background-image: url('../images/read_more_button.png');
+	display: block;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#rooms {
+	width: 181px;
+	height: 119px;
+	margin: 18px 25px 25px 50px;
+	float: left;
+	background-image: url('../images/rooms_title.png');
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#standardrooms, #superiorrooms {
+	background-color: #C5E5B4;
+	background-image: url('../images/info_box_gradient.jpg');
+	background-repeat: repeat-x;
+	height: 100%;
+	width: 750px;
+	margin: 40px auto 30px;
+	padding: 1px 50px 50px 50px;
+	box-shadow: 1px 1px 5px #000;
+ }
+
+ #penthousesuites {
+	background-color: #C5E5B4;
+	background-image: url('../images/info_box_gradient.jpg');
+	background-repeat: repeat-x;
+	height: 300px;
+	width: 750px;
+	margin: 40px auto 30px;
+	padding: 1px 50px 50px 50px;
+	box-shadow: 1px 1px 5px #000;
+ }
+
+ #standardrooms img, #superiorrooms img,  #penthousesuites img {
+ 	float: left;
+ 	margin: 15px 40px 0 0;
+ 	box-shadow: 1px 1px 5px #000;
+ }
+
+ #roompic3 {
+ 	margin: 15px 40px 30px 0;
+ }
+
+  #facilitiesinfobox {
+ 	background-color: #C5E5B4;
+	background-image: url('../images/info_box_gradient.jpg');
+	background-repeat: repeat-x;
+	height: 600px;
+	width: 750px;
+	margin: 40px auto 30px;
+	padding: 1px 50px 50px 50px;
+	box-shadow: 1px 1px 5px #000;
+ }
+
+  #facilities {
+	width: 229px;
+	height: 118px;
+	margin: 15px 5px 5px 20px;
+	float: left;
+	background-image: url('../images/facilities_title.png');
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+ #facilitiestext {
+ 	float: right;
+ 	width: 380px;
+}
+
+  #facilitiespic {
+	margin: 40px 0;
+ }
+
+  #facilitiespic2 {
+	margin: 20px 0 0 10px;
+ }
+
+#dininginfobox img, #facilitiesinfobox img {
+ 	float: left;
+ 	box-shadow: 1px 1px 5px #000;
+ }
+
+ #dining {
+	width: 187px;
+	height: 134px;
+	margin: 10px 5px 5px 43px;
+	float: left;
+	background-image: url('../images/dining_title.png');
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+ #dininginfobox {
+ 	background-color: #C5E5B4;
+	background-image: url('../images/info_box_gradient.jpg');
+	background-repeat: repeat-x;
+	height: 520px;
+	width: 750px;
+	margin: 40px auto 30px;
+	padding: 1px 50px 50px 50px;
+	box-shadow: 1px 1px 5px #000;
+ }
+
+ #diningpic {
+	margin: 20px 40px 0 0;
+ }
+
+  #diningpic2 {
+	margin: 30px 40px 0 20px;
+ }
+
+ #diningtext {
+ 	float: right;
+ 	width: 400px;
+}
+
+ #contact {
+	width: 287px;
+	height: 127px;
+	margin: 0px auto;
+	background-image: url('../images/contact_title.png');
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#contactbox {
+	clear: left;
+	width: 320px;
+	height: 110px;
+	margin: 0 auto;
+	padding: 12px 10px 0;
+	background-image: url('../images/welcome_gradient_smaller.png');
+	background-color: #CAE0BC;
+	background-repeat: repeat-x;
+	box-shadow: 1px 1px 5px #000;
+}
+
+ #contactdetails {
+ 	margin: 40px 0;
+ }
+
+#contactformcontainer, #contactdetails {
+	background-color: #C5E5B4;
+	background-image: url('../images/info_box_gradient.jpg');
+	background-repeat: repeat-x;
+	box-shadow: 1px 1px 5px #000;
+ } 
+
+ #contactformcontainer {
+ 	height: 100%;
+	width: 600px;
+	margin: 40px auto 30px;
+	padding: 1px 40px 1px 40px;
+ }
+
+#contactform {
+	margin: 30px auto;
+	height: 100%;
+	width: 380px;
+}
+
+#contactdetails {
+	height: 530px;
+	margin: 30px auto;
+	padding: 1px 50px 35px 50px;
+}
+
+#contactform form {
+	margin: 30px auto;
+}
+
+#contactform input, #contactform textarea {
+	margin: 10px 20px;
+	width: 200px;
+}
+
+#contactform label {
+	margin: 10px 0 0 0;
+	display: block;
+	clear: left;
+	float: left;
+}
+
+#contactform label {
+	display: inline-block;
+	width: 105px;
+	text-align: right;
+}
+
+#contactform span {
+	color: red;
+	font-size: 12px;
+	display: inline-block;
+	margin: 0 0 0 126px;
+}
+
+#contactform #submit {
+	margin: 10px 150px;
+	width: 90px;
+}
+
+#contactformcontainer p {
+	margin: 10px 0 0 141px;
+}
+
+#contactdetails p {
+	text-align: center;
+}
+
+ .countrycontacts {
+ 	height: 380px;
+ 	width: 325px;
+ 	float: left;
+ 	margin: 10px 20px;
+ 	padding: 10px;
+ 	text-align: center;
+ }
+
+#sitemaptitle {
+	width: 230px;
+	height: 129px;
+	margin: 0px 5px 5px 45px;
+	float: left;
+	background-image: url('../images/site_map_title.png');
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#sitemapbox {
+	clear: left;
+	width: 320px;
+	height: 115px;
+	margin: 0 auto;
+	padding: 5px 0 0;
+	background-image: url('../images/welcome_gradient_smaller.png');
+	background-color: #CAE0BC;
+	background-repeat: repeat-x;
+	box-shadow: 1px 1px 5px #000;
+}
+
+ #sitemapinfobox {
+ 	background-color: #C5E5B4;
+	background-image: url('../images/info_box_gradient.jpg');
+	background-repeat: repeat-x;
+	height: 320px;
+	width: 550px;
+	margin: 30px auto 30px;
+	padding: 1px 40px 50px 50px;
+	box-shadow: 1px 1px 5px #000;
+ }
+
+.sitemapbox {
+	margin: 10px 0 0 60px;
+	width: 210px;
+	float: left;
+}
+
+.sitemapbox li, .sitemapbox a {
+	text-decoration: none;
+	list-style: circle;
+	color: #000;
+}
+
+.mainheading {
+	margin: 20px 0 0 0;
+	list-style: disc;
+}
+
+#footnav li {
+    display: inline-block;
+}
+
+#footnav li a {
+    padding: 13px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.equalnav {
+	width: 95px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.navSeperator2 {
+	position: relative; top: 5px;
+	height: 20px;
+	overflow: hidden;
+}
+
+#footer {
+	width: 620px;
+	margin: 0 auto;
+}
+
+#sitemap {
+	color: #000;
+	text-decoration: none;
+	margin: 0 0 0 254px;
+	font-size: 12px;
+}
+
+#footer p {
+	font-size: 12px;
+	text-align: center;
+	margin: 10px;
+	padding: 0 0 20px 0;
+	color: rgba(0, 0, 0, 0.5);
+}
